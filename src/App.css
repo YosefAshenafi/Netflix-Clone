@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+.app {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  background-color: #000;
+}
+.app__footer {
+  color: white;
+  text-align: center;
+}
+.app__footerLink {
+  text-decoration: none;
+  color: #e30914;
+}
+.app__browse {
+  display: flex;
+  flex: 1;
+  z-index: 1;
+}
+
+.app_basicLayout {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+.app__fontLoaded {
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.app__storyDesktop {
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.app__storycontainer {
+  color: #333;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  direction: ltr;
+  unicode-bidi: isolate;
+  width: 100%;
+  overflow-x: hidden;
+}

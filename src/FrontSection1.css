@@ -1,0 +1,128 @@
+.frontsection1 {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  border-bottom: 8px solid #222;
+  margin-bottom: 0;
+  background: 0 0;
+  color: #fff;
+  padding: 70px 45px;
+}
+.frontsection1__animationcard {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.frontsection1__text {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 1.625rem;
+  font-weight: 400;
+  width: 52%;
+  height: 100%;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  padding: 0 3rem 0 0;
+  z-index: 3;
+  margin: -5% 0;
+}
+.frontsection__texth1 {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 0 0 0.4em;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.frontsection__texth2 {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 0.75em 0 0.25em;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.frontsection1__imgcontainer {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  width: 48%;
+  height: 100%;
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  box-sizing: border-box;
+}
+.frontsection1__imganimation {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: -10% -5% -5% 0;
+}
+.frontsection1__img {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  position: relative;
+  z-index: 2;
+}
+.frontsection1__videoanimatin {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.frontsection1__video {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  display: inline-block;
+  vertical-align: baseline;
+  width: 100%;
+  height: 100%;
+}
+.frontsection1__location {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+}

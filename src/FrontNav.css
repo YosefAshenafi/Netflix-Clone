@@ -1,0 +1,67 @@
+.frontnav {
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  transition: background-color 0.5s;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  height: 4rem;
+}
+.frontnav__storyheader {
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  margin: 0 3.5rem;
+  height: 100%;
+}
+.frontnav__imgspan {
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #e50914;
+  line-height: normal;
+}
+.frontnav__svgicon {
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #e50914;
+  line-height: normal;
+  overflow: hidden;
+  padding-top: 0.5rem;
+  height: 36px;
+  width: 134px;
+}
+.frontnav__signin {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
+}

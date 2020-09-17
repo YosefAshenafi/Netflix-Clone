@@ -1,0 +1,211 @@
+.frontsection2 {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  border-bottom: 8px solid #222;
+  margin-bottom: 0;
+  background: 0 0;
+  color: #fff;
+  padding: 70px 45px;
+}
+.frontsection2__cardanimation {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-flow: row-reverse;
+}
+.frontsection2__text {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  font-size: 1.625rem;
+  font-weight: 400;
+  width: 52%;
+  height: 100%;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  z-index: 3;
+  padding: 0 0 0 3rem;
+}
+.frontsection2__texth1 {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  margin: 0 0 0.4em;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.frontsection2__texth2 {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  margin: 0.75em 0 0.25em;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.frontsection2__imgcontainer {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  width: 48%;
+  height: 100%;
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  box-sizing: border-box;
+}
+.frontsection2__imganimationcontainer {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  position: relative;
+  overflow: hidden;
+  margin: -8% 0 -4% -15%;
+  min-height: 100px;
+  width: 100%;
+}
+.frontsection2__img {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.frontsection2__imganimation {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: #000;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 60%;
+  min-width: 15em;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 2em 0 #000;
+  border-radius: 0.75em;
+  padding: 0.5em 0.75em;
+}
+.frontsection2__animationimage {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  margin: 0 1em 0 0;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.frontsection2__animationtextimg {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  max-width: 100%;
+  border: 0;
+  height: 4.5em;
+}
+.frontsection2__animationtext {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.3em 0;
+}
+.frontsection2__text0 {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-box-direction: reverse;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+}
+.frontsection2__text1 {
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-box-direction: reverse;
+  color: #0071eb;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+.frontsection2__location {
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  -webkit-box-direction: reverse;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+.frontsection2__animationcarddownload {
+  width: 3em;
+  height: 3em;
+  outline: 2px solid #000;
+  outline-offset: -2px;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  content: "";
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -moz-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
