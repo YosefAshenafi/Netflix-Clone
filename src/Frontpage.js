@@ -1,14 +1,11 @@
 import React from "react";
-import Banner from "./Banner";
 import "./Frontpage.css";
-import Frontbanner from "./Frontbanner";
-import FrontSection1 from "./FrontSection1";
 function Frontpage() {
   return (
     <div className="frontpage">
       <div className="frontpage__background">
         <div className="frontpage__imageContainer">
-          <img className="frontpage__img" src="frontpage.jpg"></img>
+          <img className="frontpage__img" src="frontpage.jpg" alt="frontpage"></img>
           <div class="frontpage__imgGradient"></div>
         </div>
       </div>

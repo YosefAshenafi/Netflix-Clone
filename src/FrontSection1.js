@@ -1,5 +1,4 @@
 import React from "react";
-import * as ReactBootstrap from "react-bootstrap";
 
 import "./FrontSection1.css";
 
@@ -16,7 +15,7 @@ function FrontSection1() {
         </div>
         <div className="frontsection1__imgcontainer">
           <div className="frontsection1__imganimation">
-            <img className="frontsection1__img" src="section1img.png" />
+            <img className="frontsection1__img" src="section1img.png" alt="section" />
             <div className="frontsection1__videoanimatin">
               <video loop autoPlay>
                 <source
