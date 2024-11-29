@@ -12,13 +12,17 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(fetchUrl);
-      setMovies(request.data.results);
-      console.log(request.data.results);
-      return request;
+      try {
+        const request = await axios.get(fetchUrl);
+        console.log(`Fetching ${title}:`, request.data);
+        setMovies(request.data.results);
+        return request;
+      } catch (error) {
+        console.error(`Error fetching ${title}:`, error);
+      }
     }
     fetchData();
-  }, [fetchUrl]);
+  }, [fetchUrl, title]);
 
   const opts = {
     height: "390",
