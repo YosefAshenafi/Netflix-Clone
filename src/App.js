@@ -1,12 +1,8 @@
 import React from "react";
 import "./App.css";
-import Row from "./Row.js";
-import requests from "./requests.js";
-import Banner from "./Banner.js";
-import Nav from "./Nav";
 import Browse from "./Browse";
 import Frontpage from "./Frontpage";
-import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import FrontNav from "./FrontNav";
 import FrontSection1 from "./FrontSection1";
 import FrontSection2 from "./FrontSection2";
@@ -15,7 +11,7 @@ import FrontSection4 from "./FrontSection4";
 import Footer from "./Footer";
 function App() {
   return (
-    <Router>
+    <Router basename="/netflix-clone">
       <div className="app">
         <div className="app_basicLayout">
           <div className="app__fontLoaded">
